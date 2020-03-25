@@ -1,5 +1,11 @@
-import java.lang.reflect.Array;
-import java.util.*;
+package com.bridgelabz.cabinvoice.repository;
+
+import com.bridgelabz.cabinvoice.model.Ride;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class RideRepository {
     Map<String, ArrayList<Ride>> userRides = new HashMap<>();
@@ -9,7 +15,7 @@ public class RideRepository {
         if (rides == null){
             this.userRides.put(userId, new ArrayList<>((Arrays.asList(ride1))));
         } else {
-
+            
         }
     }
 

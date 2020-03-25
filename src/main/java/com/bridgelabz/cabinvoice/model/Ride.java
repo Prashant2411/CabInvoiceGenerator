@@ -1,3 +1,5 @@
+package com.bridgelabz.cabinvoice.model;
+
 public class Ride {
 
     public int time = 0;

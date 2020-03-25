@@ -1,3 +1,5 @@
+package com.bridgelabz.cabinvoice.service;
+
 public class InvoiceSummary {
     public int numOfRides;
     public double totalFare;
@@ -26,7 +28,7 @@ public class InvoiceSummary {
 
     @Override
     public String toString() {
-        return "InvoiceSummary{" +
+        return "com.bridgelabz.cabinvoice.service.InvoiceSummary{" +
                 "numOfRides=" + numOfRides +
                 ", totalFare=" + totalFare +
                 ", averageFare=" + averageFare +

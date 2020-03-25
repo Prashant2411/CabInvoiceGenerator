@@ -1,4 +1,7 @@
-import jdk.jfr.internal.Repository;
+package com.bridgelabz.cabinvoice.service;
+
+import com.bridgelabz.cabinvoice.model.Ride;
+import com.bridgelabz.cabinvoice.repository.RideRepository;
 
 public class InvoiceSevice {
     
